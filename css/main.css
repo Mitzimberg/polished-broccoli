@@ -1,1 +1,18 @@
 /* Place CSS styles here */
+.star-group {
+    width: 10px;
+    height: auto;
+}
+
+.snoopy-wrapper {
+    width: 40px;
+    height: auto;
+}
+.snoopy-wrapper img {
+    transform: translate(300px, 50px) scale(-1);
+}
+
+.snoopy-wrapper img:hover {
+    transform: translate(300px, 50px) scale(-1);
+    
+}
