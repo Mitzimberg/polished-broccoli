@@ -12,7 +12,27 @@
     transform: translate(300px, 50px) scale(-1);
 }
 
-.snoopy-wrapper img:hover {
-    transform: translate(300px, 50px) scale(-1);
-    
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform:translateY(-50px);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animated-element {
+    animation: bounce 1s infinite;
 }
